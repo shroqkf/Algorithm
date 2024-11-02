@@ -1,0 +1,1 @@
+// 1번 문제: 미로 탐색(labyrinthSearch.js)
