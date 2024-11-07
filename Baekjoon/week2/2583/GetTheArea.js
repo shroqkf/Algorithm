@@ -56,5 +56,6 @@ for (let i = 0; i < M; i++) {
     }
   }
 }
+
 console.log(answer.length);
 console.log(answer.sort((a, b) => a - b).join(" "));
