@@ -6,6 +6,7 @@ let number = 0;
 for (let i = 1; i <= +input[0]; i++) {
   // 각 테스트 케이스마다 obj 객체를 초기화하여 의상 종류별로 의상 목록을 저장한다.
   let obj = {};
+  // n: 해빈이가 가진 의상의 수
   let n = +input[++number];
   // 반복문을 통해 의상 이름과 종류를 가져와서 obj에 저장한다.
   for (let j = 1; j <= n; j++) {
