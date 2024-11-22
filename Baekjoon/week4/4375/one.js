@@ -10,10 +10,10 @@ const input = require("fs")
 let answer = [];
 
 for (let i = 0; i < input.length; i++) {
-  let gun = input[i];
-  let target = gun;
+  let num = input[i];
+  let target = num;
   let cnt = 0;
-  
+
   while (true) {
     if (target == 0) {
       answer.push(cnt);
@@ -22,7 +22,7 @@ for (let i = 0; i < input.length; i++) {
       cnt++;
       target = Math.floor(target / 10);
     } else {
-      target += gun;
+      target += num;
     }
   }
 }
